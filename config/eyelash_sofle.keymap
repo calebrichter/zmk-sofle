@@ -193,15 +193,15 @@
         };
         
         layer_3 {
-            display-name = "System";
-            sensor-bindings = <&scroll_encoder>; // From old keymap, uses the scroll encoder
-            bindings = <
-&bootloader  &sys_reset     &none          &none              &none         &none             &sys_reset    &bootloader    &none          &none       &none         &none
-&trans       &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2       &bt BT_SEL 3  &bt BT_SEL 4      &bt BT_CLR     &bt BT_CLR_ALL &none          &none       &none         &none
-&trans       &out OUT_USB   &out OUT_BLE   &trans             &trans        &trans            &trans         &trans         &trans         &trans      &trans        &trans
-&trans       &trans         &trans         &trans             &trans        &trans            &trans         &trans         &trans         &trans      &trans        &trans
-                             &mkp MB3       &mkp MB2           &mkp MB1      &none             &mo 3          &mkp MB3       &mkp MB1       &mkp MB2    &none         &none
+               bindings = <
+&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp F6  &kp F7  &kp F8      &kp F9     &kp F10      &trans
+&trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &trans  &trans  &kp F11     &kp F12    &kp UNDER    &kp PLUS
+&trans     &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv MOVE_LEFT   &trans  &trans  &trans      &trans     &kp LBRC     &kp RBRC
+&trans     &sys_reset    &trans          &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &trans  &trans  &sys_reset  &soft_off  &bootloader  &trans
+&trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans      &trans     &trans
             >;
-        };
+
+            sensor-bindings = <&scroll_encoder>;
+        }; 
     };
 };
