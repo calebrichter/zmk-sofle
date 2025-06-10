@@ -55,7 +55,7 @@
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
             #binding-cells = <2>;
-            bindings = <&kp LCTRL>, <&kp TAB>;
+            bindings = <&kp LCTRL &kp TAB>;
         };
 
         mt_sft_del: mt_sft_del {
