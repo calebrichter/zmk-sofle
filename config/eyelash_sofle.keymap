@@ -174,7 +174,7 @@
             bindings = <
 &kp GRAVE    &kp LS(N1)     &kp LS(N2)     &kp LS(N3)         &kp LS(N4)    &kp LS(N5)        &kp LS(MINUS) &kp LS(N0)   &kp LS(N9)    &kp LS(N8)    &kp LS(N7)  &kp LS(N6)
 &rgb_mod     &none          &kp F2         &kp F3             &kp F11       &mkp MB2          &kp LS(BSLH)  &macro_cnw   &macro_sel_cnw &macro_sel_cw &macro_cw   &kp F5
-&rgb_tog     &kp LS(N9)     &kp LS(N0)     &kp LS(LBRC)       &kp LS(RBRC)  &mkp MB1          &kp EQUAL     &kp RIGHT    &kp DOWN       &kp UP        &kp LEFT    &kp PPLS
+&rgb_tog &kp LS(N9) &kp LS(N0) &kp LS(LBRC) &kp LS(RBRC) &mkp MB1 &kp EQUAL &kp RIGHT &kp DOWN &kp UP &kp LEFT &kp PPLS
 &rgb_rmod    &macro_snippet &kp LBRC       &kp RBRC           &mwh D_SCROLL &mwh U_SCROLL     &kp PDOT      &kp END      &macro_sel_end &macro_sel_home &kp HOME  &kp F12
                              &trans         &none              &none         &none             &trans        &none        &mkp MB2       &mkp MB1      &none      &none
             >;
