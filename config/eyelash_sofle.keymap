@@ -45,7 +45,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "MT_LALT_X";
             #binding-cells = <0>;
-            bindings = <&kp X>, <&kp LALT>;
+            bindings = <&kp X &kp LALT>;
             mods = <(MOD_LALT)>;
         };
 
