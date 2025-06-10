@@ -14,7 +14,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - Sft+|
-  - {t: '`', s: '~'}
+  - {t: '`', h: 'Ctl+$$mdi:apple-keyboard-shift$$', s: '~'}
   - {t: '''', s: '"'}
   - {t: ',', s: <}
   - {t: ., s: '>'}
