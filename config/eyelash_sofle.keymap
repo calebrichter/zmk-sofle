@@ -40,32 +40,6 @@
         tap-ms = <100>;
     };
 
-    behaviors {
-
-        mt_lalt_x: mt_lalt_x {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp X>, <&kp LALT>;
-            mods = <(MOD_LALT)>;
-        };
-
-        mt_lctl_tab: mt_lctl_tab {
-            compatible = "zmk,behavior-hold-tap";
-            flavor = "tap-preferred";
-            tapping-term-ms = <200>;
-            #binding-cells = <2>;
-            bindings = <&kp LCTRL>, <&kp TAB>;
-        };
-
-        mt_sft_del: mt_sft_del {
-            compatible = "zmk,behavior-hold-tap";
-            flavor = "tap-preferred";
-            tapping-term-ms = <200>;
-            #binding-cells = <2>;
-            bindings = <&kp LSHFT>, <&kp DEL>;
-        };
-
-    };
 
     macros {
         macro_ctrl_bspc: macro_ctrl_bspc {
@@ -139,8 +113,8 @@
 &kp ESC      &kp N1         &kp N2         &kp N3             &kp N4    &kp N5              &kp BSLH    &kp N0         &kp N9         &kp N8         &kp N7    &kp N6
 &kp DEL      &kp SQT        &kp COMMA      &kp DOT            &kp P     &kp Y               &kp FSLH    &kp L          &kp R          &kp C          &kp G     &kp F
 &kp LCTRL    &kp A          &kp O          &kp E              &kp U     &kp I               &kp MINUS   &kp S          &kp N          &kp T          &kp H     &kp D
-&kp LSHFT    &kp SEMI       &kp Q          &kp J              &kp K     &mt_lalt_x LALT X          &kp RGUI    &kp Z          &kp V          &kp W          &kp M     &kp B
-                            &lt 2 RET       &mt_lctl_tab LCTRL TAB      &macro_ctrl_bspc &kp BSPC     &mo 1       &kp SPACE      &mt_sft_del LSHFT DEL   &mkp LCLK       &none     &none
+&kp LSHFT    &kp SEMI       &kp Q          &kp J              &kp K     &mt LALT X          &kp RGUI    &kp Z          &kp V          &kp W          &kp M     &kp B
+                            &lt 2 RET      &mt LCTRL TAB      &macro_ctrl_bspc &kp BSPC     &mo 1       &kp SPACE      &mt LSHFT DEL   &mkp LCLK       &none     &none
             >;
         };
 
