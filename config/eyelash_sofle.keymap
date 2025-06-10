@@ -64,7 +64,7 @@
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
             #binding-cells = <2>;
-            bindings = <&kp LSHFT>, <&kp DEL>;
+            bindings = <&kp LSHFT &kp DEL>;
         };
 
         lt_2_ent: lt_2_ent {
@@ -73,7 +73,7 @@
             flavor = "balanced";
             tapping-term-ms = <200>;
             #binding-cells = <2>;
-            bindings = <&mo 2>, <&kp RET>;
+            bindings = <&mo 2 &kp RET>;
         };
     };
 
