@@ -167,9 +167,9 @@
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>; 
             bindings = <
 &kp GRAVE    &kp LS(N1)     &kp LS(N2)     &kp LS(N3)         &kp LS(N4)    &kp LS(N5)        &kp LS(MINUS) &kp LS(N0)   &kp LS(N9)    &kp LS(N8)    &kp LS(N7)  &kp LS(N6)
-&rgb_mod     &none          &kp F2         &kp F3             &kp F11       &mkp RCLK          &kp LS(BSLH)  &macro_cnw   &macro_sel_cnw &macro_sel_cw &macro_cw   &kp F5
-&rgb_tog     &kp LS(N9)     &kp LS(N0)     &kp LS(LBRC)       &kp LS(RBRC)  &mkp LCLK          &kp EQUAL     &kp RIGHT    &kp DOWN       &kp UP        &kp LEFT    &kp LS(RIGHT)
-&rgb_rmod    &macro_snippet &kp LBRC       &kp RBRC           &kp PG_DN     &kp PG_UP    &kp PDOT      &kp END      &macro_sel_end &macro_sel_home &kp HOME  &kp F12
+&rgb_ug RGB_OFF     &none          &kp F2         &kp F3             &kp F11       &mkp RCLK          &kp LS(BSLH)  &macro_cnw   &macro_sel_cnw &macro_sel_cw &macro_cw   &kp F5
+&rgb_ug RGB_ON     &kp LS(N9)     &kp LS(N0)     &kp LS(LBRC)       &kp LS(RBRC)  &mkp LCLK          &kp EQUAL     &kp RIGHT    &kp DOWN       &kp UP        &kp LEFT    &kp LS(RIGHT)
+&rgb_ug RGB_EFF    &macro_snippet &kp LBRC       &kp RBRC           &kp PG_DN     &kp PG_UP    &kp DOT      &kp END      &macro_sel_end &macro_sel_home &kp HOME  &kp F12
                              &trans         &none              &none         &none             &trans        &none        &mkp RCLK       &mkp LCLK      &none      &none
             >;
         };
