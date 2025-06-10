@@ -40,11 +40,13 @@
     };
 
     behaviors {
+
         mt_lalt_x: mt_lalt_x {
             compatible = "zmk,behavior-mod-morph";
             label = "MT_LALT_X";
             #binding-cells = <0>;
             bindings = <&kp X>, <&kp LALT>;
+            mods = <(MOD_LALT)>;
         };
 
         mt_lctl_tab: mt_lctl_tab {
