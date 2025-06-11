@@ -184,12 +184,24 @@
 
         layer_2 {
             bindings = <
-&kp F12          &kp F1        &kp F2      &kp F3         &kp F4        &kp F5           &kp F6  &kp F6         &kp F7        &kp F8        &kp F9        &kp F10       &kp F11
-&bl BL_TOG       &trans        &trans      &trans         &trans        &trans           &trans  &trans         &trans        &trans        &trans        &trans        &trans
-&rgb_ug RGB_TOG  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &trans  &kp LS(CARET)  &kp LS(STAR)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &kp LSHFT
-&trans           &trans        &trans      &trans         &trans        &trans           &trans  &trans         &trans        &trans        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2
-&trans           &trans        &trans      &trans         &trans        &trans           &trans  &trans         &trans        &trans        &trans        &trans
+&kp F12          &kp F1            &kp F2            &kp F3            &kp F4            &kp F5           &kp F6  &kp F6         &kp F7        &kp F8        &kp F9        &kp F10       &kp F11
+&bl BL_TOG       &kp RG(NUMBER_1)  &kp RG(NUMBER_2)  &kp RG(NUMBER_3)  &kp RG(NUMBER_4)  &kp RG(N5)       &trans  &trans         &trans        &trans        &trans        &trans        &trans
+&rgb_ug RGB_TOG  &kp LS(EXCL)      &kp LS(AT)        &kp LS(POUND)     &kp LS(DLLR)      &kp LS(PRCNT)    &trans  &kp LS(CARET)  &kp LS(STAR)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &kp LSHFT
+&trans           &kp RG(NUMBER_6)  &trans            &trans            &trans            &trans           &trans  &trans         &trans        &trans        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2
+&trans           &trans            &trans            &trans            &trans            &trans           &trans  &trans         &trans        &trans        &trans        &tog 3
             >;
+        };
+
+        layer_3 {
+            bindings = <
+&kp ESC              &kp N1        &kp N2     &kp N3        &kp N4                 &kp N5               &mmv MOVE_UP     &kp N6     &kp N7     &kp N8            &kp N9       &kp N0     &kp LS(PIPE)
+&mt LG(LSHFT) GRAVE  &kp SQT       &kp COMMA  &kp DOT       &kp P                  &kp Y                &mmv MOVE_DOWN   &kp F      &kp G      &kp C             &kp R        &kp L      &kp FSLH
+&mt LEFT_GUI TAB     &kp A         &kp O      &kp E         &kp U                  &kp I                &mmv MOVE_LEFT   &kp D      &kp H      &kp T             &kp N        &kp S      &kp MINUS
+&kp LSHFT            &kp SEMI      &kp Q      &kp J         &kp K                  &kp X                &mmv MOVE_RIGHT  &kp B      &kp M      &kp W             &kp V        &kp Z      &kp RCTRL
+&kp ESC              &kp LEFT_ALT  &mo 2      &kp LA(BSPC)  &mt_mo_kp 1 BACKSPACE  &mt_mo_kp 2 ENTER    &mkp MB1         &kp SPACE  &kp RSHFT  &mt RCTRL DELETE  &kp LC(DEL)  &kp LCTRL
+            >;
+
+            sensor-bindings = <&scroll_encoder>;
         };
     };
 };
