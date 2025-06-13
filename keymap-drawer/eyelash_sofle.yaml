@@ -62,7 +62,7 @@ layers:
   - '&mkp MB1'
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:backspace-reverse-outline$$', h: RMETA}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-control$$'}
   - Ctl+$$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-control$$
   '1':
@@ -165,7 +165,7 @@ layers:
   - Sft+%
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+^
-  - Sft+*
+  - Sft+&
   - Sft+*
   - Sft+(
   - Sft+)
@@ -174,7 +174,7 @@ layers:
   - Gui+6
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Gui+$$mdi:keyboard-tab$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -248,7 +248,7 @@ layers:
   - V
   - Z
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:keyboard-esc$$
+  - {t: Base, h: toggle}
   - $$mdi:apple-keyboard-option$$
   - '2'
   - {t: 'Alt+$$mdi:backspace$$', type: backspace}
@@ -260,3 +260,68 @@ layers:
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-control$$'}
   - Ctl+$$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-control$$
+  '4':
+  - Sft+~
+  - Sft+!
+  - Sft+@
+  - Sft+#
+  - Sft+$
+  - Sft+%
+  - $$mdi:arrow-up-bold$$
+  - Sft+^
+  - Sft+&
+  - Sft+*
+  - Sft+(
+  - Sft+)
+  - {t: '=', s: +}
+  - $$mdi:apple-keyboard-shift$$
+  - F1
+  - F2
+  - F3
+  - F11
+  - '&mkp MB2'
+  - $$mdi:arrow-down-bold$$
+  - F5
+  - '&mac_cw'
+  - '&mac_sel_cw'
+  - '&mac_sel_cnw'
+  - '&mac_cnw'
+  - {t: \, s: '|'}
+  - $$mdi:apple-keyboard-shift$$
+  - Sft+(
+  - Sft+)
+  - Sft+{
+  - Sft+}
+  - '&mkp MB2'
+  - $$mdi:arrow-left-bold$$
+  - Sft++
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - {t: '=', s: +}
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-shift$$
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - $$mdi:pan-down$$
+  - $$mdi:pan-up$$
+  - $$mdi:arrow-right-bold$$
+  - F12
+  - HOME
+  - '&macro_sel_home'
+  - '&macro_sel_end'
+  - END
+  - {t: ., s: '>'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
