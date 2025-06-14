@@ -16,7 +16,7 @@
 &msc_input_listener { input-processors = <&zip_scroll_scaler 2 1>; };
 
 &msc {
-    acceleration-exponent = <3>;
+    acceleration-exponent = <1>;
     time-to-max-speed-ms = <100>;
     delay-ms = <0>;
 };
@@ -116,13 +116,13 @@
         macro_sel_home: macro_sel_home {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LSHFT &kp HOME>;
-        };
-
-        macro_sel_end: macro_sel_end {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LSHFT &kp END>;
+            bindings =
+                <&macro_press>,
+                <&kp LSHFT>,
+                <&macro_tap>,
+                <&kp HOME>,
+                <&macro_release>,
+                <&kp LEFT_SHIFT>;
         };
 
         macro_snippet: macro_snippet {
@@ -205,6 +205,20 @@
                 <&kp LALT>;
 
             label = "MAC_CW";
+        };
+
+        macro_sel_end: macro_sel_end {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LSHFT>,
+                <&macro_tap>,
+                <&kp END>,
+                <&macro_release>,
+                <&kp LEFT_SHIFT>;
+
+            label = "MACRO_SEL_END";
         };
     };
 
