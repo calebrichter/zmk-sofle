@@ -55,7 +55,7 @@ layers:
   - RGUI
   - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-option$$
-  - Symbols
+  - Alt+$$mdi:apple-keyboard-control$$
   - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:backspace$$', h: Movement}
   - {t: '$$mdi:keyboard-return$$', h: Symbols}
@@ -237,8 +237,8 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+6
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+$$mdi:keyboard-tab$$
+  - Alt+$$mdi:keyboard-tab$$
   - Gui+$$mdi:keyboard-tab$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -249,11 +249,11 @@ layers:
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+1
+  - {t: Ctl+2, type: held alternate}
+  - Ctl+3
+  - Ctl+4
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
