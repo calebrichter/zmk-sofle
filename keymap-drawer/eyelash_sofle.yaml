@@ -53,7 +53,7 @@ layers:
   - V
   - Z
   - RGUI
-  - $$mdi:keyboard-esc$$
+  - {t: Symbols, h: toggle}
   - $$mdi:apple-keyboard-option$$
   - Alt+$$mdi:apple-keyboard-control$$
   - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
