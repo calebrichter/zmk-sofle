@@ -234,7 +234,7 @@
 &mt LC(LSHFT) GRAVE  &kp SQT       &kp COMMA      &kp DOT       &kp P            &kp Y          &mmv MOVE_DOWN   &kp F      &kp G      &kp C             &kp R        &kp L   &kp FSLH
 &mt LCTRL TAB        &kp A         &kp O          &kp E         &kp U            &kp I          &mmv MOVE_LEFT   &kp D      &kp H      &kp T             &kp N        &kp S   &kp MINUS
 &kp LSHFT            &kp SEMI      &kp Q          &kp J         &kp K            &kp X          &mmv MOVE_RIGHT  &kp B      &kp M      &kp W             &kp V        &kp Z   &kp RGUI
-&kp ESC              &kp LEFT_ALT  &kp LA(LCTRL)  &kp LC(BSPC)  &lt 2 BACKSPACE  &lt 3 ENTER    &mkp MB1         &kp SPACE  &kp RSHFT  &mt RCTRL DELETE  &kp LC(DEL)  &to 1
+&tog 3               &kp LEFT_ALT  &kp LA(LCTRL)  &kp LC(BSPC)  &lt 2 BACKSPACE  &lt 3 ENTER    &mkp MB1         &kp SPACE  &kp RSHFT  &mt RCTRL DELETE  &kp LC(DEL)  &to 1
             >;
 
             sensor-bindings = <&scroll_encoder>;
