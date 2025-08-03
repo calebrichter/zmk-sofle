@@ -9,7 +9,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
-#include <dt-bindings/zmk/rgb.h>
 
 &mmv_input_listener { input-processors = <&zip_xy_scaler 2 1>; };
 
@@ -266,11 +265,11 @@
 
         Symbols {
             bindings = <
-&kp F12          &kp F1            &kp F2            &kp F3            &kp F4            &kp F5           &kp F6  &kp F6         &kp F7        &kp F8        &kp F9        &kp F10       &kp F11
-&bl BL_TOG       &kp RG(NUMBER_1)  &kp RG(NUMBER_2)  &kp RG(NUMBER_3)  &kp RG(NUMBER_4)  &kp RG(N5)       &trans  &trans         &trans        &trans        &trans        &trans        &trans
-&rgb_ug RGB_TOG  &kp LS(EXCL)      &kp LS(AT)        &kp LS(POUND)     &kp LS(DLLR)      &kp LS(PRCNT)    &trans  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &kp LSHFT
-&trans           &kp RG(NUMBER_6)  &kp LC(TAB)       &kp LA(TAB)       &kp RG(TAB)       &trans           &trans  &trans         &trans        &trans        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2
-&trans           &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &trans           &trans  &trans         &trans        &trans        &trans        &to 1
+&kp F12     &kp F1            &kp F2            &kp F3            &kp F4            &kp F5           &kp F6  &kp F6         &kp F7        &kp F8        &kp F9        &kp F10       &kp F11
+&bl BL_TOG  &kp RG(NUMBER_1)  &kp RG(NUMBER_2)  &kp RG(NUMBER_3)  &kp RG(NUMBER_4)  &kp RG(N5)       &trans  &trans         &trans        &trans        &trans        &trans        &trans
+&kp LCTRL   &kp LS(EXCL)      &kp LS(AT)        &kp LS(POUND)     &kp LS(DLLR)      &kp LS(PRCNT)    &trans  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &kp LSHFT
+&trans      &kp RG(NUMBER_6)  &kp LC(TAB)       &kp LA(TAB)       &kp RG(TAB)       &trans           &trans  &trans         &trans        &trans        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2
+&trans      &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &trans           &trans  &trans         &trans        &trans        &trans        &to 1
             >;
         };
 
