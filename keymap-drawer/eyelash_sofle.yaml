@@ -144,7 +144,7 @@ layers:
   - Sft+(
   - Sft+)
   - {t: '=', s: +}
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - F1
   - F2
   - F3
@@ -157,7 +157,7 @@ layers:
   - '&macro_sel_cnw'
   - '&macro_cnw'
   - {t: \, s: '|'}
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - Sft+(
   - Sft+)
   - Sft+{
