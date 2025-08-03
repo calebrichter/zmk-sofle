@@ -255,8 +255,8 @@
         Movement {
             bindings = <
 &kp LS(TILDE)  &kp LS(EXCL)  &kp LS(AT)    &kp LS(POUND)  &kp LS(DLLR)    &kp LS(PRCNT)    &kp UP     &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)     &kp LS(LPAR)    &kp LS(RPAR)  &kp EQUAL
-&kp LSHFT      &kp F1        &kp F2        &kp F3         &kp F11         &mkp MB2         &kp DOWN   &kp F5         &macro_cw     &macro_sel_cw    &macro_sel_cnw  &macro_cnw    &kp BSLH
-&kp LSHFT      &kp LS(LPAR)  &kp LS(RPAR)  &kp LS(LBRC)   &kp LS(RBRC)    &mkp MB2         &kp LEFT   &kp LS(PLUS)   &kp LEFT      &kp UP           &kp DOWN        &kp RIGHT     &kp EQUAL
+&kp LCTRL      &kp F1        &kp F2        &kp F3         &kp F11         &mkp MB2         &kp DOWN   &kp F5         &macro_cw     &macro_sel_cw    &macro_sel_cnw  &macro_cnw    &kp BSLH
+&kp LCTRL      &kp LS(LPAR)  &kp LS(RPAR)  &kp LS(LBRC)   &kp LS(RBRC)    &mkp MB2         &kp LEFT   &kp LS(PLUS)   &kp LEFT      &kp UP           &kp DOWN        &kp RIGHT     &kp EQUAL
 &kp LSHFT      &kp LSHFT     &kp LBKT      &kp RBKT       &msc SCRL_DOWN  &msc SCRL_UP     &kp RIGHT  &kp F12        &kp HOME      &macro_sel_home  &macro_sel_end  &kp END       &kp DOT
 &kp RET        &trans        &trans        &trans         &trans          &trans           &kp RET    &trans         &trans        &trans           &trans          &trans
             >;
